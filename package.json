@@ -13,9 +13,9 @@
   "author": "Ricky Kao <hungwei.kao@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "q": "^1.4.1",
     "read": "^1.0.7",
-    "request": "^2.74.0"
+    "request": "^2.74.0",
+    "request-promise": "^4.1.0"
   },
   "repository": {
     "type": "git",
