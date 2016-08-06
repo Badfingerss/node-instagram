@@ -128,11 +128,13 @@
       }];
     },
     follows: function(option) {
+      let cursor = option.cursor ? `after(${option.cursor}, ` : 'first(' +
+        option.numOfFollower + '") { ';
       return [{
         "name": "q",
         "value": " \
           ig_user(" + option.targetUserId + ") { \
-          follows.first(" + option.numOfFollower + ") { \
+          follows." + cursor + "\
             count, \
             page_info { \
               end_cursor, \
@@ -140,10 +142,14 @@
             }, \
             nodes { \
               id, \
+              biography, \
+              external_url, \
               is_verified, \
               followed_by_viewer, \
               requested_by_viewer, \
               full_name, \
+              followed_by { count }, \
+              media { count }, \
               profile_pic_url, \
               username \
             } \

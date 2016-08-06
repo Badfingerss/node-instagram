@@ -15,7 +15,7 @@
   "dependencies": {
     "q": "^1.4.1",
     "read": "^1.0.7",
-    "request": "^2.72.0"
+    "request": "^2.74.0"
   },
   "repository": {
     "type": "git",
