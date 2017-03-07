@@ -14,8 +14,8 @@
   "license": "MIT",
   "dependencies": {
     "read": "^1.0.7",
-    "request": "^2.74.0",
-    "request-promise": "^4.1.0"
+    "request": "^2.80.0",
+    "request-promise": "^4.1.1"
   },
   "repository": {
     "type": "git",
