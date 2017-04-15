@@ -13,6 +13,7 @@
   "author": "Ricky Kao <hungwei.kao@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "cheerio": "^0.22.0",
     "read": "^1.0.7",
     "request": "^2.80.0",
     "request-promise": "^4.1.1"
